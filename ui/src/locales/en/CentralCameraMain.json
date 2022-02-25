@@ -1,0 +1,20 @@
+{
+    "currentMode": "Current Mode",
+    "currentState": "Current State",
+    "nextChangeStateSec": "Next Change State Sec",
+    "stopChangeSec": "Stop Change Sec",
+    "upPassSec": "Up Pass Sec",
+    "downPassSec": "Down Pass Sec",
+    "upPassCount": "Up Pass Count",
+    "downPassCount": "Down Pass Count",
+    "imageResolution": "Image Resolution",
+    "lineStart": "Line Start ",
+    "lineEnd": "Line End",
+    "status": "Status",
+    "timing": "Timing",
+    "detectionLogs": "Detection Log",
+    "editLine": "Edit Line",
+    "videoLoading": "Video Loading",
+    "videoLoadingError": "Unable to load WebRTC"
+
+}

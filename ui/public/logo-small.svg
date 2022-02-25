@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="43" height="48" viewBox="0 0 43 48">
+    <defs>
+        <radialGradient id="a" cx="6.224%" cy="137.134%" r="341.498%" fx="6.224%" fy="137.134%" gradientTransform="matrix(.56863 0 0 1 .027 0)">
+            <stop offset="0%" stop-color="#80FFFF"/>
+            <stop offset="5.03%" stop-color="#7CF8FD"/>
+            <stop offset="70.34%" stop-color="#4CA1EB"/>
+            <stop offset="100%" stop-color="#397FE3"/>
+        </radialGradient>
+        <radialGradient id="b" cx="-22.935%" cy="-106.479%" r="396.713%" fx="-22.935%" fy="-106.479%" gradientTransform="matrix(.57692 0 0 1 -.097 0)">
+            <stop offset="0%" stop-color="#80FFFF"/>
+            <stop offset="5.03%" stop-color="#7CF8FD"/>
+            <stop offset="70.34%" stop-color="#4CA1EB"/>
+            <stop offset="100%" stop-color="#397FE3"/>
+        </radialGradient>
+        <radialGradient id="c" cx="-65.139%" cy="146.739%" r="489.87%" fx="-65.139%" fy="146.739%" gradientTransform="matrix(1 0 0 .86667 0 .196)">
+            <stop offset="0%" stop-color="#80FFFF"/>
+            <stop offset="5.03%" stop-color="#7CF8FD"/>
+            <stop offset="70.34%" stop-color="#4CA1EB"/>
+            <stop offset="100%" stop-color="#397FE3"/>
+        </radialGradient>
+        <radialGradient id="d" cx="6.224%" cy="137.135%" r="341.375%" fx="6.224%" fy="137.135%" gradientTransform="matrix(.56863 0 0 1 .027 0)">
+            <stop offset="0%" stop-color="#80FFFF"/>
+            <stop offset="5.03%" stop-color="#7CF8FD"/>
+            <stop offset="70.34%" stop-color="#4CA1EB"/>
+            <stop offset="100%" stop-color="#397FE3"/>
+        </radialGradient>
+    </defs>
+    <g fill="none" fill-rule="nonzero">
+        <path fill="url(#a)" d="M1.02 35.743L21.931 24l20.911 11.743c.12.067.192.19.192.324a.372.372 0 0 1-.192.324L22.38 47.883a.918.918 0 0 1-.896 0L1.02 36.391a.372.372 0 0 1-.192-.324c0-.133.073-.257.192-.324z" opacity=".5"/>
+        <path fill="url(#b)" d="M0 24l21.702-12.414L42.85 23.683a.365.365 0 0 1 0 .634L21.702 36.414 0 24z" opacity=".79"/>
+        <path fill="url(#c)" d="M0 24V11.586L21.517 24v12.414z" opacity=".95"/>
+        <path fill="url(#d)" d="M0 11.94L20.924.104a.807.807 0 0 1 .793 0L41.99 11.571a.424.424 0 0 1 .217.369.424.424 0 0 1-.217.369L21.32 24 0 11.94z" opacity=".9"/>
+    </g>
+</svg>

@@ -1,0 +1,22 @@
+version: "3.7"
+
+services:
+  ui:
+    build:
+      context: ./ui
+      args:
+        - REACT_APP_NODE_TYPE=Center
+        - REACT_APP_STACK_NAME=RTSPcam1
+        - REACT_APP_MAX_DETECTION_LOGS=10
+        - REACT_APP_WEBRTC_URI=webrtc-23001
+    stdin_open: true
+    command: bash /root/kb-eye-ui.sh
+    image: kb-eye-edge-ui:0.0.1
+    logging:
+      driver: journald
+      options:
+        tag: scorer-kb-eye_edge_ui
+    network_mode: host
+    restart: always
+    tty: true
+

@@ -1,0 +1,19 @@
+{
+    "currentMode": "動作モード",
+    "currentState": "現在状態",
+    "nextChangeStateSec": "状態遷移残り秒数",
+    "stopChangeSec": "自動中断遷移残り秒数",
+    "upPassSec": "(AI)上り通行可能秒数",
+    "downPassSec": "(AI)下り通行可能秒数",
+    "upPassCount": "上り通過件数",
+    "downPassCount": "下り通過件数",
+    "imageResolution": "画像解像度 ",
+    "lineStart": "検知線開始 ",
+    "lineEnd": "検知線終了",
+    "status": "状態",
+    "timing": "タイミング",
+    "detectionLogs": "検知ログ",
+    "editLine": "検知線編集 ",
+    "videoLoading": "ビデオローディング中",
+    "videoLoadingError": "WebRTCを読み込めません"
+}

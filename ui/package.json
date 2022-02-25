@@ -1,0 +1,103 @@
+{
+  "name": "kb-eye",
+  "version": "1.1.18",
+  "private": true,
+  "dependencies": {
+    "@material-ui/icons": "^4.11.2",
+    "@reactivers/use-click-outside": "^1.0.0",
+    "@storybook/addon-actions": "^6.3.7",
+    "@storybook/addon-knobs": "^6.3.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "@types/jest": "^24.9.1",
+    "@types/node": "^12.12.36",
+    "@types/react": "^16.9.34",
+    "@types/react-dom": "^16.9.6",
+    "@types/react-router-dom": "^5.1.5",
+    "@types/styled-components": "^5.1.0",
+    "aws-amplify": "^4.2.3",
+    "eslint": "^6.8.0",
+    "eslint-config-react-app": "^5.2.1",
+    "eslint-config-standard-react": "^9.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-react-hooks": "^4.0.8",
+    "eslint-plugin-standard": "^4.0.1",
+    "i18next": "^19.4.2",
+    "i18next-browser-languagedetector": "^4.1.1",
+    "immutability-helper": "^3.1.1",
+    "lodash": "^4.17.21",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-hook-form": "^7.12.2",
+    "react-i18next": "^11.3.5",
+    "react-icons": "^4.2.0",
+    "react-icons-wrapper": "^1.0.8",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.3",
+    "react-use-websocket": "^2.1.1",
+    "scorer-ui-kit": "^1.5.4",
+    "socket.io-client": "^4.2.0",
+    "styled-components": "^5.1.0",
+    "styled-reset": "^4.3.4",
+    "typescript": "4.0.3",
+    "use-click-outside": "^2.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "npm run lint && react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "link-ui-kit": "link-ui-kit",
+    "lint": "eslint src/**/*.js src/**/**/*.tsx"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "react-app",
+    "rules": {
+      "quotes": [
+        "error",
+        "single"
+      ],
+      "dot-notation": 2
+    },
+    "overrides": [
+      {
+        "files": [
+          "**/*.ts?(x)"
+        ],
+        "rules": {
+          "no-unused-vars": "off",
+          "@typescript-eslint/no-unused-vars": [
+            "error",
+            {
+              "vars": "all",
+              "args": "after-used",
+              "ignoreRestSiblings": true,
+              "varsIgnorePattern": "^_",
+              "argsIgnorePattern": "^_"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.172"
+  }
+}
